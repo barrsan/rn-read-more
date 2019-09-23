@@ -1,7 +1,7 @@
 # rn-read-more
 
 ## Show Case
-<img src="https://raw.githubusercontent.com/barrsan/rn-read-more/master/showcase.gif" alt="showcase" width="50%">
+<img src="https://raw.githubusercontent.com/barrsan/rn-read-more/master/showcase.gif" alt="showcase" width="40%">
 
 ## Getting Started
 
