@@ -6,7 +6,7 @@ import {
   View,
   Text,
 } from 'react-native';
-import ReadMore from 'react-native-read-more';
+import ReadMore from 'rn-read-more';
 
 const styles = StyleSheet.create({
   readMoreWrapper: {

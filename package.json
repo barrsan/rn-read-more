@@ -1,12 +1,16 @@
 {
-  "name": "react-native-read-more",
+  "name": "rn-read-more",
   "version": "1.0.0",
   "main": "build/index.js",
   "description": "",
   "scripts": {
     "start": "tsc --watch",
-    "dev": "concurrently \"yarn start\" \"yarn cpx 'src/**/*' 'example/node_modules/react-native-read-more' --watch\"",
+    "dev": "concurrently \"yarn start\" \"yarn cpx 'src/**/*' 'example/node_modules/rn-read-more' --watch\"",
     "build": "rm -rf ./build/* && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrsan/rn-read-more.git"
   },
   "author": "Alex Baretsky <41ax@mail.ru>",
   "license": "MIT",
