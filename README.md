@@ -1,5 +1,8 @@
 # rn-read-more
 
+## Show Case
+<img src="https://raw.githubusercontent.com/barrsan/rn-read-more/master/showcase.gif" alt="showcase" width="80%">
+
 ## Getting Started
 
 ### Installation
@@ -16,25 +19,26 @@ yarn add rn-read-more
 
 ### Usage
 
+
 #### Props
 
-**text**(string)(*required): Text.
+- **text**(string)(*required): Text.
 
-**numberOfLines**(number)(*required): Number of lines to be displayed.
+- **numberOfLines**(number)(*required): Number of lines to be displayed.
 
-**renderViewMore**((onPress: () => void) => ReactNode): Render view-more component.
+- **renderViewMore**((onPress: () => void) => ReactNode): Render view-more component.
 
-**renderViewLess**((onPress: () => void) => ReactNode): Render view-less component.
+- **renderViewLess**((onPress: () => void) => ReactNode): Render view-less component.
 
-**onChangeTextVisibility**((v: boolean) => void): Callback after change text visibility.
+- **onChangeTextVisibility**((v: boolean) => void): Callback after change text visibility.
 
-**containerStyle**(ViewStyle): Container style with text
+- **containerStyle**(ViewStyle): Container style with text
 
-**textStyle**(TextStyle): Text style.
+- **textStyle**(TextStyle): Text style.
 
-**textVisibility**(boolean): Controls text visibility.
+- **textVisibility**(boolean): Controls text visibility.
 
-### Example
+#### Example
 
 ```javascript
 import {
