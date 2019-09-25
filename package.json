@@ -1,7 +1,8 @@
 {
   "name": "rn-read-more",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "main": "build/index.js",
+  "types": "./build/index.d.ts",
   "description": "",
   "scripts": {
     "start": "tsc --watch",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "> 16.8.0",
-    "react-native": "> 0.50.0"
+    "react-native": "> 0.55.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.2",
@@ -34,7 +35,7 @@
     "eslint-plugin-react": "^7.14.3",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
-    "react-native": "^0.60.5",
+    "react-native": "^0.61.1",
     "typescript": "^3.6.3"
   }
 }

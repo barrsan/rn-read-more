@@ -85,6 +85,7 @@ const Example = () => {
       onChangeTextVisibility={onChangeTextVisibility}
     />
   );
+};
 ```
 
 ## License

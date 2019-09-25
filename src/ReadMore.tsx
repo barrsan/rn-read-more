@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ReactNode } from 'react';
+import * as React from 'react';
 import {
   View,
   Text,
@@ -7,14 +7,16 @@ import {
   LayoutChangeEvent,
 } from 'react-native';
 
+const { useState, useEffect } = React;
+
 interface IProps {
   text: string;
   numberOfLines: number;
   textVisibility?: boolean;
   containerStyle?: ViewStyle;
   textStyle?: TextStyle;
-  renderViewMore: (onPress: () => void) => ReactNode;
-  renderViewLess: (onPress: () => void) => ReactNode;
+  renderViewMore: (onPress: () => void) => React.ReactNode;
+  renderViewLess: (onPress: () => void) => React.ReactNode;
   onChangeTextVisibility?: (v: boolean) => void;
 }
 
@@ -68,7 +70,7 @@ const ReadMore: React.FC<IProps> = ({
     }
   };
 
-  const renderFooter = (): ReactNode => {
+  const renderFooter = (): React.ReactNode => {
     if (textVisibilityState) {
       return renderViewLess(handleLessPress);
     }
